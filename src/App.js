@@ -4,7 +4,7 @@ import './App.css';
 import { useEffect, useState, useMemo, memo } from 'react';
 
 function Text({ fruits }) {
-  console.log('render Text');
+  console.log('first');
 
   useEffect(() => {
     console.log('something changed!');
