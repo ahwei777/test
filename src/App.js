@@ -4,8 +4,9 @@ import './App.css';
 import { useEffect, useState, useMemo, memo } from 'react';
 
 function Text({ fruits }) {
-  console.log('render Text');
+  console.log('first');
 
+  console.log("not same line")
   useEffect(() => {
     console.log('something changed!');
   }, [fruits]);
